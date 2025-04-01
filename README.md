@@ -1,5 +1,6 @@
-# README
-Folder scanner for bash
+# Folder scanner for bash
+
+This script scans a folder in search of folders and trows txt whit the folder names
 
 ## Note
 
