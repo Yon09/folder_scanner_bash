@@ -1,26 +1,27 @@
-# Folder scanner for bash
+# Folder Scanner para Bash
 
-This script scans a folder in search of folders and trows txt whit the folder names
+Este script escanea una carpeta en busca de subcarpetas y genera un archivo `.txt` con los nombres de las carpetas encontradas.
 
-## Note
+## Nota
 
-Be shure that have permissions
+Asegúrate de tener permisos de ejecución:
+
 ```bash
 chmod +x scanner.sh
 ```
 
-## Usage
+## Uso
 
-Run it whit
-
-### If the script is on the folder to scan
+### Si el script está en la carpeta que deseas escanear
 
 ```bash
-scanner.sh
+./scanner.sh
 ```
 
-### If you want to scan other folder
+### Si quieres escanear otra carpeta
 
 ```bash
-scanner.sh /main/folder
+./scanner.sh /ruta/a/la/carpeta
 ```
+
+El script generará un archivo de texto con la lista de carpetas encontradas.
